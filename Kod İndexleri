@@ -1,20 +1,23 @@
-1 - Bütün Işıkları Aç
-2 - Bütün Işıkları Kapat
+1 - Bütün Işıkları Aç --> 2
+2 - Bütün Işıkları Kapat --> 3
 
-3 - Giriş Katın Işıklarını Aç
-4 - Giriş Katın Işıklarını Kapat
+3 - Giriş Katın Işıklarını Aç  --> 4
+4 - Giriş Katın Işıklarını Kapat --> 5
 
-5 - Üst Katın Işıklarını Aç
-6 - Üst Katın Işıklarını Kapat
+5 - Üst Katın Işıklarını Aç --> 6
+6 - Üst Katın Işıklarını Kapat --> 7
 
-7 - Isıtıcıyı Aç 
-8 - Isıtıcıyı Kapat
+7 - Isıtıcıyı Aç --> null
+8 - Isıtıcıyı Kapat --> null
 
-9 - Soğutucuyu Aç
-10 - Soğutucuyu Kapat
+9 - Soğutucuyu Aç --> null
+10 - Soğutucuyu Kapat --> null
 
-11 - Kapıyı Aç 
-12 - Kapıyı Kapat
+11 - Kapıyı Aç --> null
+12 - Kapıyı Kapat --> null
+
+13 - DC Motoru Aç  --> 1
+14 - DC Motoru Kapat  --> 0
 
 ----
 Ek durumlar makettten sonra oluşturulacak.
