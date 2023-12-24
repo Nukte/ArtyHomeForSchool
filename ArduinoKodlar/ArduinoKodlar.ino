@@ -11,29 +11,29 @@ void loop() {
   if (Serial.available() > 0) {
     String receivedDataString = Serial.readStringUntil('\n');
     int receivedData = receivedDataString.toInt();
-    if (receivedData == 1) // Bütün ışıkları aç
+    if (receivedData == 2 // Bütün ışıkları aç
     {
       digitalWrite(2, HIGH);
       digitalWrite(3, HIGH);
     }
-    else if (receivedData == 2) // Bütün ışıkları kapat
+    else if (receivedData == 3) // Bütün ışıkları kapat
     {
       digitalWrite(2, LOW);
       digitalWrite(3, LOW);
     }
-    else if (receivedData == 3) // alt katın ışıklarını aç
+    else if (receivedData == 4) // alt katın ışıklarını aç
     {
       digitalWrite(2, HIGH);
     }
-    else if (receivedData == 4) // alt katın ışıklarını kapat
+    else if (receivedData == 5) // alt katın ışıklarını kapat
     {
       digitalWrite(2, LOW);
     }
-    else if (receivedData == 5) // üst katın ışıklarını aç
+    else if (receivedData == 6) // üst katın ışıklarını aç
     {
       digitalWrite(3, HIGH);
     }
-    else if (receivedData == 6) // üst katın ışıklarını kapat
+    else if (receivedData == 7) // üst katın ışıklarını kapat
     {
       digitalWrite(3, LOW);
     }
